@@ -1,0 +1,46 @@
+
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+margin: 0;
+font-family: "Poppins", sans-serif;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+/* Desktop */
+    @media (min-width: 1024px){
+    .banner{
+        width: 1360px;
+        height: 350px;
+        
+    }
+    }
+
+/* RESPONSIVE */
+
+/* TABLET */
+@media (min-width: 576px) and (max-width: 991.98px){
+    .banner{
+        width: 900px;
+        height: 300px;
+       
+    }
+    .card{
+        width: 200px;
+        height: 100px;
+    }
+}
+/** SMARTPHONE  */
+@media (max-width: 575.98px) {
+    .banner{
+        width: 455px;
+        height: 100px;
+     
+    }
+    .card{
+        width: 150px;
+        height: 100px;
+    }
+}

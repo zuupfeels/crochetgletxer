@@ -1,0 +1,123 @@
+@import "variables";
+@import "footer";
+@import "menu";
+@import "responsive";
+
+
+body, html {
+    background-image: url(../multimedia/fondo2.png) !important;
+    background-position-x: center;
+    font-family: "Varela Round";
+    background-position: center;
+}
+
+.contactoPie{
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: start;
+}
+
+
+.form-control-sm, .mb-3, .form-floating>label {
+    margin-left: 10px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+
+  main{
+    background: none;
+    padding: 20px;
+  }
+
+  section{
+    background: none;
+    .btn{
+        align-items: center;
+    }
+  }
+
+
+a {
+    color: black;
+}
+
+.Info {
+    display: inline-block;
+}
+
+
+h1 {
+    background-color: #b98aa0; 
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.sobrenosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: initial;
+    align-items: right;
+}
+
+
+
+
+.container2 {
+    height: 80%;
+    width: 90%;
+}
+
+
+
+
+@-webkit-keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.w-100 {
+width: 400px !important;
+height:400px !important;
+}
+.element.style {
+    width: 350px;}
+
+.card {
+    background-color: #ffe5f0;
+}
+
+section{
+    text-align: start;
+    padding: 20px;
+    text-decoration: none;
+}
+
